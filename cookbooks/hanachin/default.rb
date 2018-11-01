@@ -11,6 +11,6 @@ remote_directory "/home/ec2-user/.dotfiles" do
   source "dotfiles"
 end
 
-execute "rcup" do
+execute "rcup -f" do
   user "ec2-user"
 end
