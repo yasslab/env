@@ -1,0 +1,10 @@
+[user]
+        name = Seiei Miyagi
+        email = seiei@yasslab.jp
+
+[core]
+        editor = /usr/bin/nano
+
+[commit]
+        gpgsign = true
+        cleanup = scissors
