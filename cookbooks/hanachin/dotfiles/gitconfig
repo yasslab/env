@@ -3,7 +3,10 @@
         email = seiei@yasslab.jp
 
 [core]
-        editor = /usr/bin/nano
+	editor = /usr/bin/nano
+
+[gpg]
+        program = /usr/bin/krgpg
 
 [commit]
         gpgsign = true
