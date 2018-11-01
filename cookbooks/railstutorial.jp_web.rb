@@ -9,3 +9,5 @@ execute "git clone git@github.com:yasslab/railstutorial.jp_web.git" do
   cwd "/home/ec2-user/environment"
   not_if "[ -d /home/ec2-user/environment/railstutorial.jp_web ]"
 end
+
+include_recipe "rails.rb"
